@@ -108,7 +108,7 @@ ul {
 
 .box {
 	background:#f7f7f7;
-	border:1px solid #f0e9eb;
+	border:1px solid #446CB3;
 	padding:15px;
 }
 
@@ -116,7 +116,7 @@ ul {
 	background:#06a;
 	padding:10px 20px;
 	text-align:right;
-	color:#f6dde3;
+	color:#446CB3;
 }
 
 #nav a {
@@ -125,16 +125,16 @@ ul {
 
 #nav a:visited, #nav a:link {
 	text-decoration:none;
-	color:#f6dde3;
+	color:#446CB3;
 }
 
 #nav a:hover {
 	text-decoration:underline;
-	color:#f6dde3;
+	color:#446CB3;
 }
 
 #logo {
 	margin-bottom:20px;
 	font:normal 18px Georgia, serif;
-	color:#fa7393;
+	color:#446CB3;
 }
