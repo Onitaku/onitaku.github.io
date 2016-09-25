@@ -3,36 +3,36 @@
 <head>
     <title>fz234</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-83973899-1', 'auto');
-  ga('send', 'pageview');
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-</script>
 </head>
 <body>
 <div id="wrapper">
-    
+
 	<div id="header">
 		<div id="bg"></div>
 	</div>
-	
+  <script>
+  $(document).ready(function(){
+    $('#immagine').click(function(){
+      $('#immagine').attr('src', 'http://orig05.deviantart.net/a1df/f/2011/112/8/f/nyan_cat_gif_by_kodiakpaws-d3emqu1.gif');
+    });
+})
+</script>
 	<div id="main-content">
 		<div id="left-column">
 			<div id="logo">
 			fz234 Federico Zarfati
 			</div>
 			<p>
-			<img src="https://avatars3.githubusercontent.com/u/2929194?v=3&s=460" width="139" height="150" style="margin: 0 10px 10px 0;float:left;" />
-				<em>This is my small biography!</em>
+			<img src="https://avatars3.githubusercontent.com/u/2929194?v=3&s=460" id="immagine" width="139" height="150" style="margin: 0 10px 10px 0;float:left;" />
+      <figcaption>Click Me!</figcaption>
+      	<em>This is my small biography!</em>
 				<em>I come from Italy and I am a Computer Scientist</em>
 				<em>I am really passionate about Artificial Intelligence.<er/>
 				<em><er/>
-			</p> 
+			</p>
 		</div>
 		<div id="right-column">
 			<div class="sidebar">
